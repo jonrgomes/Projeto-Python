@@ -1,0 +1,6 @@
+t=input('Digite algo:')
+print('É um numero?',t.isnumeric())
+print('É alfanumerico?',t.isalnum())
+print('É alfabetico?',t.isalpha())
+print('Está em minusculas?',t.islower())
+print('É decinal?',t.isdecimal())
