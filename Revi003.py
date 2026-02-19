@@ -24,7 +24,11 @@ if num % 2 == 0:
     print('Este número é par!')
 else:
     print('Este numero é impar!')
-
+tempo = int(input('Quantos anos tem seu carro?'))
+if tempo <= 10:
+    print('Carro seminovo em!!!')
+else:
+    print('Seu carro está velho')
 
 
 
